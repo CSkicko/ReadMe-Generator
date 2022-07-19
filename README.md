@@ -1,34 +1,37 @@
-# Test
-    ## Lisence
-    Application Lisence
+# Title
+## Lisence
+Application Lisence
 
-    ## Description
-    Application Description
+## Description
+Desc
 
-    ## Table of Contents
-    * Installation
-    * Usage
-    * Collaborators
-    * Contribution Guidelines
-    * Tests
+## Table of Contents
+* Installation
+* Usage
+* Collaborators
+* Contribution Guidelines
+* Tests
 
-    ## Installation
-    Information on aplication installation:  
-    `npm install`
+## Installation
+```
+Run the following commands on the command line to install the package: 
+ * one 
+ *  two 
+ *  three
+```
 
-    ## Usage
-    Information on application usage
+## Usage
+Usage info
 
-    ## Collaborators
-    * Colab 1
-    * Colab 2
+## Collaborators
+* Colab 1
+* Colab 2
 
-    ## Contributing
-    Information on how to contribute
+## Contributing
+Contrib info
 
-    ## Tests
-    Test information
+## Tests
+Test instructions
 
-    ## Questions
-    Contact information for questions
-    
+## Questions
+Contact information for questions

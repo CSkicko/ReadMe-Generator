@@ -19,12 +19,17 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'Please enter the installation instructions for your project:',
+        message: 'Please enter the installation commands required for your project. Note each step must be separated by a comma:',
     },
     {
         type: 'input',
         name: 'usage',
         message: 'Please enter relevant usage information for your project:',
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Please enter the the other contributors to this project. Note each person must be separated by a comma:',
     },
     {
         type: 'input',
