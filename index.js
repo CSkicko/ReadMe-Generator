@@ -4,6 +4,7 @@ const fs = require('fs');
 const generate = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
+// **TODO add question for collaborators**
 const questions = [
     {
         type: 'input',
