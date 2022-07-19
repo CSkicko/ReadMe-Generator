@@ -1,9 +1,9 @@
-# Project Title
-## Lisence
-Application Lisence
+# 
+## License
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Description
-This is a description of my project
+
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -16,24 +16,21 @@ This is a description of my project
 ## Installation
 ```
 Run the following commands on the command line to install the package: 
-- npm install inquirer 
-- npm install some other package
+- 
 ```
 
 ## Usage
-This is how to use the application
+
 
 ## Collaborators
 The following personnel have contributed to the production of this project: 
-- Craig 
-- Alex 
-- Michael
+- 
 
 ## Contribution Guidelines
-If you would like to contribute, please follow these steps
+
 
 ## Tests
-These are the test instructions
+
 
 ## Questions
-Should you have any questions, please contact me via [GitHub](https://github.com/CSkicko) or by email at craig.skicko@gmail.com
+Should you have any questions, please contact me via [GitHub](https://github.com/) or by email at 

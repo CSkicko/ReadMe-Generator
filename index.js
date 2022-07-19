@@ -1,10 +1,8 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generate = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
-// **TODO add question for collaborators**
+// Questions to be asked to user to generate dynamic content
 const questions = [
     {
         type: 'input',
@@ -39,7 +37,7 @@ const questions = [
     {
         type: 'input',
         name: 'test',
-        message: 'Please enter the test instructions for your project',
+        message: 'Please enter the test instructions for your project:',
     },
     {
         type: 'list',
@@ -59,12 +57,12 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+// Accepts the filename and data and generated the readme file
 function writeToFile(fileName, data) {
     fs.writeFileSync(`${fileName}.md`, generate.generateMarkdown(data));
 }
 
-// TODO: Create a function to initialize app
+// Initialises the application
 function init() {
     inquirer
         .prompt(questions)
@@ -73,5 +71,4 @@ function init() {
         });
 }
 
-// Function call to initialize app
 init();
