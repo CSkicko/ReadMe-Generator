@@ -20,9 +20,9 @@ function generateMarkdown(data) {
   // Deconstruct data object
   const {title, description, installation, usage, credits, contribution, test, license, username, email} = data;
   
-  // Set up installation and credits arrays
-  const installationArray = installation.split(',');
-  const creditsArray = credits.split('');
+  // Set up installation and credits arrays. Note map is used to get rid of additional white space at the start of elements from index 1 onwards
+  const installationArray = installation.split(',').map(index => index.trim());
+  const creditsArray = credits.split(',').map(index => index.trim());
   
   // Return the readme file content as a string
   return `# ${title}

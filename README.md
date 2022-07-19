@@ -3,7 +3,7 @@
 Application Lisence
 
 ## Description
-Desc
+Blah
 
 ## Table of Contents
 * Installation
@@ -15,23 +15,36 @@ Desc
 ## Installation
 ```
 Run the following commands on the command line to install the package: 
- * one 
- *  two 
- *  three
+- one 
+- two 
+- three
 ```
 
 ## Usage
-Usage info
+Usage
 
 ## Collaborators
-* Colab 1
-* Colab 2
+The following personnel have contributed to the production of this project: 
+- C 
+- 1 
+- , 
+-  
+- C 
+- 2 
+- , 
+-  
+- C 
+- 3 
+- , 
+-  
+- C 
+- 4
 
 ## Contributing
-Contrib info
+
 
 ## Tests
-Test instructions
+
 
 ## Questions
 Contact information for questions
