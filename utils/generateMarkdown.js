@@ -33,11 +33,12 @@ Application Lisence
 ${description}
 
 ## Table of Contents
-* Installation
-* Usage
-* Collaborators
-* Contribution Guidelines
-* Tests
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Collaborators](#collaborators)
+4. [Contribution Guidelines](#contribution-guidelines)
+5. [Tests](#tests)
+6. [Questions](#questions)
 
 ## Installation
 \`\`\`
@@ -50,7 +51,7 @@ ${usage}
 ## Collaborators
 ${createList(creditsArray, 'The following personnel have contributed to the production of this project:')}
 
-## Contributing
+## Contribution Guidelines
 ${contribution}
 
 ## Tests
