@@ -58,7 +58,7 @@ ${contribution}
 ${test}
 
 ## Questions
-Contact information for questions
+Should you have any questions, please contact me via [GitHub](https://github.com/${username}) or by email at ${email}
 `;
 }
 

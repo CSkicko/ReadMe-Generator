@@ -1,9 +1,9 @@
-# Test
+# Project Title
 ## Lisence
 Application Lisence
 
 ## Description
-Test
+This is a description of my project
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -16,24 +16,24 @@ Test
 ## Installation
 ```
 Run the following commands on the command line to install the package: 
-- one 
-- two
+- npm install inquirer 
+- npm install some other package
 ```
 
 ## Usage
-Test
+This is how to use the application
 
 ## Collaborators
 The following personnel have contributed to the production of this project: 
-- one 
-- two 
-- three
+- Craig 
+- Alex 
+- Michael
 
 ## Contribution Guidelines
-test
+If you would like to contribute, please follow these steps
 
 ## Tests
-test
+These are the test instructions
 
 ## Questions
-Contact information for questions
+Should you have any questions, please contact me via [GitHub](https://github.com/CSkicko) or by email at craig.skicko@gmail.com
