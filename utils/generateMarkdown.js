@@ -47,22 +47,16 @@ const licenseInfo = [
   }
 ];
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   const licenseData = licenseInfo.filter(index => index.name == license);
   return licenseData[0].badge;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   const licenseData = licenseInfo.filter(index => index.name == license);
   return licenseData[0].link;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   return `${renderLicenseBadge(license) + renderLicenseLink(license)}`
 }
@@ -71,6 +65,7 @@ function renderLicenseSection(license) {
 function createList(array, message) {
   return array.reduce((a, b) => a + ' \n- ' + b, message);
 }
+
 
 // Generates and returns the readme content
 function generateMarkdown(data) {
@@ -81,12 +76,12 @@ function generateMarkdown(data) {
   const creditsArray = credits.split(',').map(index => index.trim());
   
   // Return the readme file content as a string
-  return `# ${title}
+  return `# ${title ? title : 'Untitled'}
 ## License
-${renderLicenseSection(license)}
+${license ? renderLicenseSection(license) : 'Not Applicable'}
 
 ## Description
-${description}
+${description ? description : 'Not Available'}
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -98,23 +93,23 @@ ${description}
 
 ## Installation
 \`\`\`
-${createList(installationArray, 'Run the following commands on the command line to install the package:')}
+${installationArray[0] ? createList(installationArray, 'Run the following commands on the command line to install the package:') : 'Not Applicable'}
 \`\`\`
 
 ## Usage
-${usage}
+${usage ? usage : 'Not Available'}
 
 ## Collaborators
-${createList(creditsArray, 'The following personnel have contributed to the production of this project:')}
+${creditsArray[0] ? createList(creditsArray, 'The following personnel have contributed to the production of this project:') : "No other collaborators"}
 
 ## Contribution Guidelines
-${contribution}
+${contribution ? contribution : "Not Applicable"}
 
 ## Tests
-${test}
+${test ? tests : 'Not Applicable'}
 
 ## Questions
-Should you have any questions, please contact me via [GitHub](https://github.com/${username}) or by email at ${email}
+Should you have any questions, please contact me via ${username ? '[GitHub](https://github.com/' + username : 'GitHub'} or by email ${email ? 'at' + email : ""}
 `;
 }
 
