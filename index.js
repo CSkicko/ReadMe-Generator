@@ -40,7 +40,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please select the applicable license for your project:',
-        choices: ['TBD1', 'TBD2'],
+        choices: ['Apache 2.0', 'Boost 1.0', 'BSD 3', 'GNU GPL v3', 'GNU AGPL v3', 'GNU LGPL v3', 'IBM', 'ISC', 'MIT'],
     },
     {
         type: 'input',
@@ -60,7 +60,13 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((data) => {
+            writeToFile('README', data);
+        });
+}
 
 // Function call to initialize app
 init();
