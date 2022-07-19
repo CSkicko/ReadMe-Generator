@@ -5,15 +5,52 @@ const generate = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
-    'Please enter your project title:', 
-    'Please enter a description of your project:', 
-    'Please enter the installation instructions for your project:', 
-    'Please enter relevant usage information for your project:',
-    'Please enter the contribution guidelines for your project:',
-    'Please enter the test instructions for your project',
-    'Please select the applicable liscence for your project:',
-    'Please enter your GitHub username:',
-    'Please enter your email address:'
+    {
+        type: 'input',
+        name: 'title',
+        message: 'Please enter your project title:',
+    },
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Please enter a description of your project:',
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Please enter the installation instructions for your project:',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please enter relevant usage information for your project:',
+    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'Please enter the contribution guidelines for your project:',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Please enter the test instructions for your project',
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Please select the applicable license for your project:',
+        choices: ['TBD1', 'TBD2'],
+    },
+    {
+        type: 'input',
+        name: 'username',
+        message: 'Please enter your GitHub username:',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your email address:',
+    }
 ];
 
 // TODO: Create a function to write README file
