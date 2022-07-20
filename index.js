@@ -27,7 +27,7 @@ const questions = [
     {
         type: 'input',
         name: 'credits',
-        message: 'Please enter the the other contributors to this project. Note each person must be separated by a comma:',
+        message: 'Please enter the other contributors to this project. Note each person must be separated by a comma:',
     },
     {
         type: 'input',

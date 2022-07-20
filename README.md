@@ -1,6 +1,8 @@
 # Untitled
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+
+Click on the badge above to view license information
 
 ## Description
 Not Available
@@ -31,4 +33,4 @@ Not Applicable
 Not Applicable
 
 ## Questions
-Should you have any questions, please contact me via GitHub or by email 
+Should you have any questions, please contact me via [GitHub](https://github.com/) or by [email](mailto:)

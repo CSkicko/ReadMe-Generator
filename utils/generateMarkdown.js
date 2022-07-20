@@ -78,7 +78,8 @@ function generateMarkdown(data) {
   // Return the readme file content as a string
   return `# ${title ? title : 'Untitled'}
 ## License
-${license ? renderLicenseSection(license) : 'Not Applicable'}
+${license ? renderLicenseSection(license) : 'Not Applicable'} \n
+Click on the badge above to view license information
 
 ## Description
 ${description ? description : 'Not Available'}
@@ -106,11 +107,10 @@ ${creditsArray[0] ? createList(creditsArray, 'The following personnel have contr
 ${contribution ? contribution : "Not Applicable"}
 
 ## Tests
-${test ? tests : 'Not Applicable'}
+${test ? test : 'Not Applicable'}
 
 ## Questions
-Should you have any questions, please contact me via ${username ? '[GitHub](https://github.com/' + username : 'GitHub'} or by email ${email ? 'at' + email : ""}
-`;
+Should you have any questions, please contact me via [GitHub](https://github.com/${username}) or by [email](mailto:${email})`
 }
 
 // Exports the generate markdown function to be used in other files
