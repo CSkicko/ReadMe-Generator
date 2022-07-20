@@ -1,11 +1,9 @@
-# Untitled
+# README Generator
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
-
-The applicable license for this project is Apache 2.0. Click on the badge above for further license information.
+Not Applicable
 
 ## Description
-Not Available
+This application allows the user to quickly generate a professional README file for their project using only a few prompts on the console
 
 ## Table of Contents
 1. [Installation](#installation)
@@ -16,21 +14,28 @@ Not Available
 6. [Questions](#questions)
 
 ## Installation
+Once cloned, navigate to the relevant directory and run the following command to install project dependencies
 ```
-Not Applicable
+npm i
 ```
+Note: You must have node installed on your machine for this application to function.
 
 ## Usage
-Not Available
+To initiate the README Generator, navigate to the relevant directory and run the following command in the console:
+```
+node index.js
+```
+The following video provides a walkthrough, detailing how the application can be used: *INSERT WALKTHROUGH VIDEO*
 
 ## Collaborators
-No other collaborators
+The following personnel have been involved in the devleopment of this application:
+- Craig Skicko
 
 ## Contributing
-Not Applicable
+To contribute to the ongoing success of this application, please fork a repository then create a pull request once all relevant changes have been implemented and the updated code has been thoroughly tested
 
 ## Tests
-Not Applicable
+No specific test instructions exist for this project. Test approach is currently at the discretion of each contributor. Please ensure that the package is thoroughly tested before creating pull requests.
 
 ## Questions
-Should you have any questions, please contact me via [GitHub](https://github.com/) or by [email](mailto:)
+Should you have any questions, please contact me via [GitHub](https://github.com/CSkicko) or by [email](mailto:craig.skicko@gmail.com)
