@@ -59,7 +59,7 @@ const questions = [
 
 // Accepts the filename and data and generated the readme file
 function writeToFile(fileName, data) {
-    fs.writeFileSync(`${fileName}.md`, generate.generateMarkdown(data));
+    fs.writeFileSync(`./newReadme/${fileName}.md`, generate.generateMarkdown(data));
 }
 
 // Initialises the application

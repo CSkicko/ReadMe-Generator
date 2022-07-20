@@ -2,7 +2,7 @@
 ## License
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
 
-Click on the badge above to view license information
+The applicable license for this project is Apache 2.0. Click on the badge above for further license information.
 
 ## Description
 Not Available
@@ -26,7 +26,7 @@ Not Available
 ## Collaborators
 No other collaborators
 
-## Contribution Guidelines
+## Contributing
 Not Applicable
 
 ## Tests

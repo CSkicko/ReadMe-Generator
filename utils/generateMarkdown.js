@@ -79,7 +79,7 @@ function generateMarkdown(data) {
   return `# ${title ? title : 'Untitled'}
 ## License
 ${license ? renderLicenseSection(license) : 'Not Applicable'} \n
-Click on the badge above to view license information
+The applicable license for this project is ${license}. Click on the badge above for further license information.
 
 ## Description
 ${description ? description : 'Not Available'}
@@ -103,7 +103,7 @@ ${usage ? usage : 'Not Available'}
 ## Collaborators
 ${creditsArray[0] ? createList(creditsArray, 'The following personnel have contributed to the production of this project:') : "No other collaborators"}
 
-## Contribution Guidelines
+## Contributing
 ${contribution ? contribution : "Not Applicable"}
 
 ## Tests
