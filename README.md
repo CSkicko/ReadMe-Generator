@@ -25,8 +25,8 @@ To initiate the README Generator, navigate to the relevant directory and run the
 ```
 node index.js
 ```
-The following video provides a walkthrough, detailing how the application can be used: *INSERT WALKTHROUGH VIDEO*
-[Test Link](./media/walkthrough.mp4)
+The following video provides a walkthrough, detailing how the application can be used: \n
+A walkthrough video explaining how to use the application is provided in the [media](./media/) folder of this repository.
 
 ## Collaborators
 The following personnel have been involved in the devleopment of this application:
